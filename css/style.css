@@ -23,13 +23,22 @@ body {
     
 }
 
-.span {
+a {
+    color: seashell;
+}
 
+
+span {
+    display: inline-block;
+    padding: 20px;
+    padding-right: 20px;
+    font-family: Helvetica;
+    font-size: 22px;
     color: seashell;
     text-decoration: underline;
-    font-family: Helvetica;
-    text-decoration-color: seashell;
-    color: seashell;
+    
+    
+ 
 
     
 }
@@ -44,9 +53,10 @@ header {
     border-bottom-style: solid;
     
     
+    
 }
 
-header nav {
+/* span {
     display: flex;
     padding-right: 20px;
     
@@ -59,7 +69,7 @@ header nav {
      
 
 }
-
+ */
 
 
 /* body sectiom */
