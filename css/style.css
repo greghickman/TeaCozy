@@ -14,9 +14,10 @@ body {
 .logo {
     
     display: flex;
-    flex-grow: 1;
+    flex-grow: 1; 
     padding: 8px 0px 8px 10px;
     opacity: 0.9;
+    
     color: seashell;
     height: 50px;
     
@@ -28,15 +29,17 @@ a {
 }
 
 
-span {
+nav span {
     display: inline-block;
+   
+    
     padding: 20px;
     padding-right: 20px;
     font-family: Helvetica;
     font-size: 22px;
-    color: seashell;
-    text-decoration: underline;
     
+    text-decoration: underline;
+     
     
  
 
@@ -45,8 +48,10 @@ span {
 
 header {
     display: flex;
+    
+    
     position: fixed;
-    width: 100%;
+    width: 1232px;
     height: 69px;
     border-bottom-color: seashell;
     border-bottom-width: 1px;
@@ -56,21 +61,50 @@ header {
     
 }
 
-/* span {
-    display: flex;
-    padding-right: 20px;
+header nav {
+    padding-right: 10px;
     
-    
-    
-    text-decoration: underline;
-    font-family: Helvetica;
-    text-decoration-color: seashell;
-    color: seashell;
-     
-
 }
- */
 
 
 /* body sectiom */
 
+    
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1232px;
+    
+}
+
+.columnmain {
+    width: 1200px;
+
+}
+
+.topstory {
+    
+    height: 700px;
+    background: url("images/img-mission-background.jpg"); 
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    
+    
+}
+.middlestory {
+
+}
+.bottomstory {
+
+}
+
+/* top banner */
+
+.topstory span {
+    color: red;
+}
