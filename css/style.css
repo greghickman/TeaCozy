@@ -50,7 +50,7 @@ header {
     display: flex;
     
     
-    position: fixed;
+    
     width: 1232px;
     height: 69px;
     border-bottom-color: seashell;
@@ -61,7 +61,7 @@ header {
     
 }
 
-header nav {
+header nav { 
     padding-right: 10px;
     
 }
@@ -90,7 +90,7 @@ header nav {
 .topstory {
     
     height: 700px;
-    background: url("images/img-mission-background.jpg"); 
+    background-image: url("../images/img-mission-background.jpg"); 
     background-repeat: no-repeat;
     background-origin: content-box;
     
